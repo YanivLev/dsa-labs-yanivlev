@@ -2,7 +2,7 @@ public class Main {
   public static void main(String[] args) {
     String text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     
-    String bestCase = "";
+    String bestCase = "A";
 
     // * Initialize startTime here
     long startTime = System.nanoTime();
