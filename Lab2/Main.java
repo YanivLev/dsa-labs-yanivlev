@@ -116,6 +116,4 @@ class Lab2 {
       System.out.print(element + " | ");
     }
   }
-
-  
 }
