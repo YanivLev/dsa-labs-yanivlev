@@ -15,7 +15,7 @@ public class Main {
       long bubbleEndTime = System.nanoTime();
       long bubbleElapsedTime = bubbleEndTime - bubbleStartTime;
       Lab4.outputList(bubbleSortedList);
-      System.out.println("Elapsed time: " + bubbleElapsedTime + " ns");
+      System.out.println("\nElapsed time: " + bubbleElapsedTime + " ns");
 
       System.out.println("\n\nInsertion sort results -------------------------------------------");
       long insertionStartTime = System.nanoTime();
@@ -23,7 +23,7 @@ public class Main {
       long insertionEndTime = System.nanoTime();
       long insertionElapsedTime = insertionEndTime - insertionStartTime;
       Lab4.outputList(insertionSortedList);
-      System.out.println("Elapsed time: " + insertionElapsedTime + " ns");
+      System.out.println("\nElapsed time: " + insertionElapsedTime + " ns");
     }
 }
 
